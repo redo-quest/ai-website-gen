@@ -5,7 +5,7 @@ from statistics import mean
 import time
 import threading
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 processing_times = []
 
