@@ -8,7 +8,7 @@ from beautifulsoup import generate_images
 import tempfile
 import shutil
 import datetime
-
+ 
 
 
 # Load environment variables from .env file
