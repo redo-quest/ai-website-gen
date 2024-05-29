@@ -6,7 +6,7 @@ URL_PATTERN = r'url\(["\']?(?P<url>[^\)]+?)["\']?\)'
 
 def generate_images(html_content, STABLEHORDE_API_KEY, local_directory):
     soup = BeautifulSoup(html_content, "html.parser")
-    image_elements = soup.find_all("img")
+    image_elements = soup.find_all("img") 
 
     for image_element in image_elements:
         alt = image_element.get("alt")
